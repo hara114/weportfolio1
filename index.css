@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kanit', sans-serif;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url(back.jpg);
+	min-height: 100vh;
+	background-size: 100%;
+	background-attachment: scroll;
+}
+
+
+
+
+/*======NAVBAR======*/
+
+.navbar	{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+	background: rgba(0, 0, 0,.6)!important; 
+	padding: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	padding-left: 20px;
+}
+
+/*======///NAVBAR======*/
+
+/*======HOME======*/
+
+
+
+
+.intro {
+	position: absolute;
+	top: 20%;
+	width: 70%;
+	max-width: 100%;
+	left: 150px;
+
+	
+}
+
+
+.intro h1{
+	font-size: 13em;
+	font font-weight:bold;
+	color: #fff;
+	font-family: 'Patua One', cursive;
+}
+
+
+.intro h2{
+	font-size: 8em;
+	font font-weight:bold;
+	color: #fff;
+	font-family: 'Patua One', cursive;
+}
+
+.intro h4{
+	font-size: 3em;
+	color: #fff;
+	font-family: monospace ;
+
+}
+
+
+
+/*======//HOME======*/
+
+
+
+
+.chard{
+
+
+	height: 350px;
+	width: 350px;
+}
+
+/*======RESPONSIVE SIZES======*/
+
+/*==========TABLET SIZE==============*/
+
+	@media (max-width: 1000px) {
+
+
+	.intro {
+		
+		top: 25%;
+		left: 50px;
+		
+	}
+
+	.intro h1 {
+		font-size: 8em;
+	
+	}
+
+
+	.intro h2{
+		font-size: 3em;
+		
+	}
+
+	.intro h4{
+		font-size: 2em;
+	
+	}
+
+}
+
+
+	@media (max-width: 767px) {
+
+
+	.intro {
+		
+		top: 13%;
+		left: 50px;
+		
+	}
+
+	.intro h1 {
+		font-size: 5em;
+	
+	}
+
+
+	.intro h2{
+		font-size: 2.8em;
+		
+	}
+
+	.intro h4{
+		font-size: 1.5em;
+	
+	}
+
+}
+
+/*======MOBILE======*/
+
+
+
+@media (max-width: 479px){
+	.intro {
+		
+		top: 10%;
+		left: 20px;
+		
+	}
+
+	.intro h1 {
+		font-size: 3em;
+	
+	}
+
+
+	.intro h2{
+		font-size: 2.1em;
+		
+	}
+
+	.intro h4{
+		font-size: 1em;
+	
+	}
+
+
+}
+
+
+@media (max-width: 375px){
+	.intro {
+		
+		top: 13%;
+		left: 20px;
+		
+	}
+
+	.intro h1 {
+		font-size: 2em;
+	
+	}
+
+
+	.intro h2{
+		font-size: 1.1em;
+		
+	}
+
+	.intro h4{
+		font-size: .5em;
+	
+	}
+
+
+}
+
+/*======////RESPONSIVE SIZES======*/
+
+
+/*======ABOUT ME======*/
+
+
+.chard{
+
+
+	height: 350px;
+	width: 350px;
+}
+
+#about {
+	background-image: url(back.jpg);
+	color: white;
+	align-items: center;
+	min-height: 100vh;
+
+}
+
+.container-background {
+	background-image: url(back.jpg);
+
+}
+
+
+
+/*======// ABOUT ME======*/
+
+
+
+/*======PROJECTS======*/
+
+#project {
+	background-image: url(back.jpg);
+}
+
+/*=====// PROJECTS======*/
+
+
+
+
